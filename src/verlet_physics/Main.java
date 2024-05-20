@@ -56,7 +56,6 @@ public class Main {
         int threshold = 40;
         if (colorCounter <= threshold) {
             r = 255 - (colorCounter % threshold);
-            System.out.print(r);
             colorCounter += addition;
         }
         if (colorCounter > threshold && colorCounter <= threshold * 2) {
