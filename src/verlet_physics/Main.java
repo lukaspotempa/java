@@ -1,3 +1,5 @@
+package verlet_physics;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -20,7 +22,7 @@ public class Main {
     private static Vector2 CirclePos = new Vector2(frameSizeX/2, frameSizeY/2);
 
     private static CopyOnWriteArrayList<Circle> circles = new CopyOnWriteArrayList<>();
-    private static JFrame frame = new JFrame("Circle Collisions");
+    private static JFrame frame = new JFrame("verlet_physics.Circle Collisions");
     private static CustomPanel panel = new CustomPanel();
 
     private static long lastUpdateTime;

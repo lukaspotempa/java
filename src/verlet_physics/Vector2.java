@@ -1,3 +1,5 @@
+package verlet_physics;
+
 public class Vector2 {
     public double x;
     public double y;
@@ -37,6 +39,6 @@ public class Vector2 {
 
     @Override
     public String toString() {
-        return "Vector2(" + x + ", " + y + ")";
+        return "verlet_physics.Vector2(" + x + ", " + y + ")";
     }
 }

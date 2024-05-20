@@ -1,3 +1,5 @@
+package verlet_physics;
+
 import javax.swing.*;
 import java.awt.*;
 
