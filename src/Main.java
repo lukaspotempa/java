@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.util.ArrayList;
 import java.awt.event.KeyListener;
 import java.awt.MouseInfo;
 import java.util.concurrent.CopyOnWriteArrayList;
